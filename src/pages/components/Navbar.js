@@ -17,7 +17,7 @@ export default function Navbar() {
 
         {/* Links */}
         <div className="flex items-center justify-between space-x-4">
-          <Link className="text-white flex items-center hover:text-blue-300" to="/">
+          <Link className="text-white flex items-center hover:text-blue-300" to="/myPortfolio">
             <FaHome className="text-2xl mr-1" />
             <span className="hidden sm:block">Home</span>
           </Link>
