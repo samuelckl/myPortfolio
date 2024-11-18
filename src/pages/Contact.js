@@ -5,7 +5,7 @@ import { FaWhatsapp, FaEnvelope, FaGithub, FaLinkedinIn, FaDiscord } from "react
 export default function Contact() {
   return (
     <div>
-      <div className="flex m-4 items-center justify-evenly">
+      <div className="flex mt-16 m-4 items-center justify-evenly">
           <img src={Portrait} alt="Logo" className="h-48 w-48 mr-1 sm:h-72 sm:w-72" />
         <div></div>
         <div className="flex-row w-48 sm:w-72 text-gray-800">

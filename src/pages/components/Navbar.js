@@ -7,7 +7,7 @@ import logo from "../../../src/images/icons/logo.svg";
 export default function Navbar() {
   return (
     <div className ="font-sans">
-      <div className="h-12 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-400 flex items-center justify-between mx-4 px-4 py-4 rounded-full shadow-lg">
+      <div className="fixed top-4 left-0 right-0 h-12 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-400 flex items-center justify-between mx-4 px-4 py-4 rounded-full shadow-lg z-50">
         {/* Title with Icon */}
         <span className="text-white text-2xl font-fun flex items-center">
           {/* Show only the logo on mobile, add "myPortfolio" for larger screens */}

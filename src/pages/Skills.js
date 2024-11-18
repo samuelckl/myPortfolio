@@ -13,8 +13,8 @@ import {
 
 export default function Skills() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-orange-50 to-orange-200 select-none">
-      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+    <div className="flex mt-16 justify-center items-top min-h-screen bg-gradient-to-r from-orange-50 to-orange-200 select-none">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mx-8">
         <SkillCard
           logo={FaLaptopCode}
           title="Front-end Development"

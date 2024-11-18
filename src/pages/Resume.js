@@ -1,17 +1,17 @@
 import {FaFilePdf} from "react-icons/fa";
 export default function Resume() {
   return (
-    <div className="text-center p-6 bg-gradient-to-r from-orange-50 to-orange-200 select-none">
+    <div className="text-center mt-8 p-6 bg-gradient-to-r from-orange-50 to-orange-200 select-none">
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-2xl sm:text-4xl font-bold">Kin Lok, Chan</h1>
         
         <p className="text-xs sm:text-base">
-          E-mail: <a href="mailto:samuelckl@gmail.com" className="text-blue-500">samuelckl@gmail.com</a> | Phone: +61451093203
+          E-mail: <a href="mailto:samuelckl@gmail.com" className="text-blue-500 hover:text-blue-800 ">samuelckl@gmail.com</a> | Phone: +61451093203
         </p>
         <p className="text-sm sm:text-base">
           Wyndham Vale, Victoria, Australia |{" "}
-          <a href="https://www.linkedin.com/in/samchankinlok" target="_blank" rel="noopener noreferrer" className="text-blue-500">
+          <a href="https://www.linkedin.com/in/samchankinlok" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-800 ">
             LinkedIn
           </a>
         </p>

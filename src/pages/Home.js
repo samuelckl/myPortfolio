@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaDiscord } from "react-icons/fa";
 export default function Home() {
   return (
     <div>
-      <div className="flex m-4 justify-evenly select-none">
+      <div className="flex mt-16 m-4 justify-evenly select-none">
         <div className="flex-col">
           <img src={Portrait} alt="Logo" className="h-48 w-48 mr-1 sm:h-72 sm:w-72" />
           <div className="flex justify-between m-4">

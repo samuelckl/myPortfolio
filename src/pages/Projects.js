@@ -5,7 +5,7 @@ import NKTDS from "../images/visualProjects/NKTDS1200.jpg";
 import Faichun from "../images/visualProjects/faichun_think.png";
 export default function Projects() {
   return (
-    <div className="flex flex-col justify-center items-center bg-gradient-to-r from-orange-50 to-orange-200 select-none">
+    <div className="flex mt-16 flex-col justify-center items-center bg-gradient-to-r from-orange-50 to-orange-200 select-none">
       <ProjectCard
         title="GeneGuardian Research Portal"
         videoLink="https://www.youtube.com/watch?v=U7w-0r8M1mY"

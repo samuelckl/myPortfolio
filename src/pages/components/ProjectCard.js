@@ -8,7 +8,7 @@ export default function ProjectCard({ title, videoLink, description }) {
     .filter((item) => item.trim() !== "");
 
   return (
-    <div className="flex flex-col sm:flex-row items-leading bg-white shadow-md w-4/5 m-4 p-4 rounded-lg font-sans">
+    <div className="flex flex-col sm:flex-row items-leading hover:bg-blue-100 bg-white shadow-md w-4/5 m-4 p-4 rounded-lg font-sans">
       {/* Video Section */}
       <div className="w-full sm:w-2/3 flex flex-col sm:items-start pl-0 sm:pl-6">
         {embedLink && embedLink !== "none" ? (

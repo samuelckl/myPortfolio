@@ -11,7 +11,7 @@ export default function VisualCard({ title, image, description }) {
   };
 
   return (
-    <div className="flex flex-col sm:flex-row items-leading bg-white shadow-md w-4/5 m-4 p-4 rounded-lg font-sans relative">
+    <div className="flex flex-col sm:flex-row items-leading hover:bg-blue-100 bg-white shadow-md w-4/5 m-4 p-4 rounded-lg font-sans relative">
       {/* Image Section */}
       <div className="w-full sm:w-full flex flex-col sm:items-start pl-0 sm:pl-6">
         <div className="w-full sm:w-full flex justify-center">
