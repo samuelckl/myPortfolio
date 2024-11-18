@@ -1,7 +1,7 @@
 import {FaFilePdf} from "react-icons/fa";
 export default function Resume() {
   return (
-    <div className="p-6 bg-gradient-to-r from-orange-50 to-orange-200 select-none">
+    <div className="text-center p-6 bg-gradient-to-r from-orange-50 to-orange-200 select-none">
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-2xl sm:text-4xl font-bold">Kin Lok, Chan</h1>
