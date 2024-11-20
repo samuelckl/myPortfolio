@@ -31,7 +31,7 @@ export default function Projects() {
 
       <ProjectCard
         title="E-Commerce Website Development - SOIL"
-        videoLink=""
+        videoLink="https://www.youtube.com/watch?v=55sYnotf3z8"
         description={`
           -- Collaborated with a teammate to develop an e-commerce portal using ReactJS and NodeJS.
           -- Built the back end with MySQL, Express, GraphQL, Apollo, and implemented testing with Jest.
