@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://samuelckl.github.io/myPortfolio/
 
+To update this project, run: 
+npm run build
+npm run deploy
+
 ## Available Scripts
 
 In the project directory, you can run:

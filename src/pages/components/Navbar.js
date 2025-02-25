@@ -6,9 +6,9 @@ import logo from "../../../src/images/icons/logo.svg";
 
 export default function Navbar() {
   return (
-    <div className ="font-sans">
-      <div className="fixed top-4 left-0 right-0 h-12 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-400 flex items-center justify-between mx-4 px-4 py-4 rounded-full shadow-lg z-50">
-        {/* Title with Icon */}
+    <div className="flex justify-center fixed top-4 z-50 font-sans">
+      <div className="h-12 bg-gradient-to-r from-gray-500 via-gray-600 to-gray-400 flex items-center justify-between px-6 py-4 rounded-full shadow-lg">
+         {/* Title with Icon */}
         <span className="text-white text-2xl font-fun flex items-center">
           {/* Show only the logo on mobile, add "myPortfolio" for larger screens */}
           <img src={logo} alt="Logo" className="h-8 w-8 mr-1" />
@@ -16,7 +16,7 @@ export default function Navbar() {
         </span>
 
         {/* Links */}
-        <div className="flex items-center justify-between space-x-4">
+        <div className="flex items-center justify-between space-x-8 mx-8">
           <Link className="text-white flex items-center hover:text-blue-300" to="/myPortfolio">
             <FaHome className="text-2xl mr-1" />
             <span className="hidden sm:block">Home</span>

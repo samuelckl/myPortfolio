@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaDiscord } from "react-icons/fa";
 export default function Home() {
   return (
     <div>
-      <div className="flex mt-16 m-4 justify-evenly select-none">
+      <div className="flex mt-16 m-4 flex justify-center items-center md:gap-12 sm:gap-8 gap-4 select-none">
         <div className="flex-col">
           <img src={Portrait} alt="Logo" className="h-48 w-48 mr-1 sm:h-72 sm:w-72" />
           <div className="flex justify-between m-4">
@@ -35,7 +35,7 @@ export default function Home() {
           </div>
         </div>
         <div></div>
-        <div className="flex-row w-48 sm:w-72 text-gray-800">
+        <div className="flex-row w-32 sm:w-48 md:w-72 text-gray-800">
           <div className ="font-bold text-l sm:text-xl " >Full Stack Developer</div>
           <div className ="font-bold text-2xl sm:text-3xl pt-1 italic ">Hello, I am a Full Stack Developer</div>
           <div className="text-xs sm:text-base pt-1">
