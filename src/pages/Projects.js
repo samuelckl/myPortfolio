@@ -51,6 +51,19 @@ export default function Projects() {
           -- The app also provides real-time calculations to guide students in achieving their desired grades.
           `}
       />
+
+      <ProjectCard
+        title="Clonstagram - Intagram-like photo sharing platform"
+        videoLink="https://projects-clonestagram.vercel.app/"
+        description={`
+          -- Clonestgram is a mock Instagram-like web app featuring a feed of posts with images, captions, profiles, and like interactions.
+          -- It uses React, React Router, and TailwindCSS for a seamless and responsive UI.
+          -- Users can navigate between a randomized feed and individual profile pages displaying posts in a grid format.
+          -- Client-side routing ensures a smooth transition between views, reflecting the URL state.
+          -- Hosted on Vercel, the app maintains visual consistency and user-friendly interactivity across all devices.
+          `}
+      />
+
       <ProjectCard
         title="IoT project - scooter sharing system"
         videoLink=""
