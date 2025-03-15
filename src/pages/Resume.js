@@ -55,7 +55,9 @@ export default function Resume() {
         <p className="text-sm sm:text-base font-semibold">
           Master of Information Technology - GPA 3.8 / 85 WAM
         </p>
-        <p className="text-xs sm:text-base">RMIT University | Feb 2023 — Dec 2024</p>
+        <p className="text-xs sm:text-base">
+          RMIT University | Feb 2023 — Dec 2024
+        </p>
         <p className="text-xs sm:text-base">
           Modules: Information Technology, Cloud Computing, Software
           Engineering, Full Stack Development, Agile Methodologies, Mobile
@@ -101,6 +103,63 @@ export default function Resume() {
         </ul>
       </div>
 
+      {/* Projects */}
+      <div className="mb-8">
+        <h2 className="text-xl sm:text-2xl font-bold mb-2">Projects</h2>
+        <p className="text-sm sm:text-base font-semibold">
+          Capstone Project with CSIRO - GeneGuardian Researcher Portal
+        </p>
+        <ul className="list-disc list-inside text-xs sm:text-base">
+          <li>
+            Collaborated with a team to design and deveolop a genomic data
+            management portal using React, TypeScript, and Material UI for the
+            front-end
+          </li>
+          <li>
+            Built and integrated REST APIs with AWS services for back-end
+            functionality.
+          </li>
+          <li>
+            Explored DUO ontology and implemented robust security for genomic
+            data.
+          </li>
+          <li>
+            Developed technicall skills in Terraform and strengthened
+            collaboration with industry partners.
+          </li>
+        </ul>
+        <br></br>
+
+        <p className="text-sm sm:text-base font-semibold">
+          Welli - iOS Application for Senior Daily Usage
+        </p>
+        <ul className="list-disc list-inside text-xs sm:text-base">
+          <li>
+            Developed with UIKit and TranslationKit for capturing and processing
+            photo and text translation.
+          </li>
+          <li>
+            Integrated with REST APIs to fetch weather data and send SMS with
+            current location.
+          </li>
+        </ul>
+        <br></br>
+
+        <p className="text-sm sm:text-base font-semibold">
+          E-commerce Full Stack Development - A supermarket E-shopping Website
+        </p>
+        <ul className="list-disc list-inside text-xs sm:text-base">
+          <li>
+            Full Stack Development (React, Node.js, Express, GraphQL, MySQL,
+            Apollo, Jest).
+          </li>
+          <li>
+            Features: Secure login, cart, checkout, and admin-managed review
+            system with auto comment censoring on offensive words.
+          </li>
+        </ul>
+      </div>
+
       {/* Experience */}
       <div className="mb-8">
         <h2 className="text-xl sm:text-2xl font-bold mb-2">Experience</h2>
@@ -108,19 +167,44 @@ export default function Resume() {
           Full Stack Developer Intern | RDA Group | Jan 2025 - Present
         </p>
         <ul className="list-disc list-inside text-xs sm:text-base">
-          <li>Developed a dynamic task marketplace app using React & Node.js.</li>
-          <li>Leading frontend development and preparing backend integration.</li>
-          <li>Optimized API and database logic, improving efficiency by 50%.</li>
+          <li>
+            Developed a dynamic task marketplace app using React & Node.js.
+          </li>
+          <li>
+            Leading frontend development and preparing backend integration.
+          </li>
+          <li>
+            Optimized API and database logic, improving efficiency by 50%.
+          </li>
         </ul>
+        <br></br>
 
         <p className="text-sm sm:text-base font-semibold">
           Full-Stack Software Engineer Intern | CSIRO | July 2024 - Nov 2024
         </p>
         <ul className="list-disc list-inside text-xs sm:text-base">
-          <li>Developed genomic data management portal with React & TypeScript.</li>
-          <li>Optimized AWS services with Terraform, achieving 50% cost savings.</li>
-          <li>Reduced system response time from days to minutes using REST APIs.</li>
-          <li>Enhanced search efficiency by 70% with an optimized data structure.</li>
+          <li>
+            Developed genomic data management portal with React & TypeScript.
+          </li>
+          <li>
+            Optimized AWS services with Terraform, achieving 50% cost savings.
+          </li>
+          <li>
+            Reduced system response time from days to minutes using REST APIs.
+          </li>
+          <li>
+            Enhanced search efficiency by 70% with an optimized data structure.
+          </li>
+        </ul>
+      </div>
+
+      {/* Languages */}
+      <div className="mb-8">
+        <h2 className="text-xl sm:text-2xl font-bold mb-2">Languages</h2>
+        <ul className="list-disc list-inside text-xs sm:text-base">
+          <li>
+            English, Mandarin, Cantonese - Native or bilingual proficiency
+          </li>
         </ul>
       </div>
 
@@ -128,7 +212,10 @@ export default function Resume() {
       <div className="mb-8">
         <h2 className="text-xl sm:text-2xl font-bold mb-2">Certifications</h2>
         <ul className="list-disc list-inside text-xs sm:text-base">
-          <li>Microsoft Certified: Azure AI Fundamentals, Azure Fundamentals</li>
+          <li>Peer Mentoring - RMIT | Jul 2023</li>
+          <li>
+            Microsoft Certified: Azure AI Fundamentals, Azure Fundamentals
+          </li>
           <li>Capstone Project with CSIRO – Frontend, Backend (REST API)</li>
           <li>Industry Experience Program | Apr 2024</li>
         </ul>
